@@ -25,4 +25,4 @@ Dozer's project files are organized using Maven, and the project is designed to 
 
 ## Changelog
 
-Journey with me as I build Dozer! All changes are marked in [changelog.md](https://github.com/FusionForScience/DozerDiscord/blob/master/CHANGELOG.md).
+Journey with me as I build Dozer! All changes are marked in [CHANGELOG.md](https://github.com/FusionForScience/DozerDiscord/blob/master/CHANGELOG.md).
