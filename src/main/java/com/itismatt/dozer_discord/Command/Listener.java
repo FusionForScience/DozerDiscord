@@ -21,6 +21,8 @@ public class Listener extends ListenerAdapter
 
     private SolveSudokuCommand m_sudoku = new SolveSudokuCommand("sudoku");
 
+    private WhatDidKathleenSayCommand m_Kathleen = new WhatDidKathleenSayCommand("whatdidkathleensay");
+
 
     /**
      * Currently checks message for commands and executes appropriately. Also checks for spam.
@@ -35,5 +37,6 @@ public class Listener extends ListenerAdapter
         m_ping.run(event);
         m_oof.run(event);
         m_sudoku.run(event);
+        m_Kathleen.run(event);
     }
 }
